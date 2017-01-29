@@ -46,6 +46,7 @@ namespace TestGUI
         private void MainForm_Paint(object sender, PaintEventArgs e)
         {
             //test
+            //DC Branch
         }
 
         private void MainForm_Resize(object sender, EventArgs e)
