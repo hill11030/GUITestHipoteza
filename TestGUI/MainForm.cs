@@ -45,7 +45,7 @@ namespace TestGUI
 
         private void MainForm_Paint(object sender, PaintEventArgs e)
         {
-            
+            //test
         }
 
         private void MainForm_Resize(object sender, EventArgs e)
