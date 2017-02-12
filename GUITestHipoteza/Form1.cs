@@ -4,7 +4,7 @@ using System;
 using System.Linq;
 using Grafika;
 using System.Configuration;
-using FGV;
+using MathToolbox;
 
 namespace GUITestHipoteza
 {
@@ -75,7 +75,7 @@ namespace GUITestHipoteza
                 System.Threading.Thread.Sleep(15);
             }
 
-            cs.DrawFunction(new ExponencialFunction(3, 0));
+            //cs.DrawFunction(new ExponencialFunction(3, 0));
 
             int ls3 = vals.Where(v => v >= gMean - 3 * gSigma && v < gMean - 2 * gSigma).Count();
             int ls2 = vals.Where(v => v >= gMean - 2 * gSigma && v < gMean - 1 * gSigma).Count();
