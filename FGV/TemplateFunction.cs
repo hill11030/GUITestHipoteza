@@ -45,13 +45,13 @@ namespace FGV
         }
         public static TemplateFunction operator *(TemplateFunction f1, TemplateFunction f2)
         {
-            Func<double, double> subtract = x => f1.Function(x) * f2.Function(x);
-            return new TemplateFunction(subtract);
+            Func<double, double> product = x => f1.Function(x) * f2.Function(x);
+            return new TemplateFunction(product);
         }
         public static TemplateFunction operator /(TemplateFunction f1, TemplateFunction f2)
         {
-            Func<double, double> subtract = x => f1.Function(x) / f2.Function(x);
-            return new TemplateFunction(subtract);
+            Func<double, double> quotient = x => f1.Function(x) / f2.Function(x);
+            return new TemplateFunction(quotient);
         }
         #endregion
     }
