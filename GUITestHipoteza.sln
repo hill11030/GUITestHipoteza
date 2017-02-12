@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafika", "Grafika\Grafika.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestoviHipoteza", "TestoviHipoteza\TestoviHipoteza.csproj", "{4D8ED8EC-48FB-4570-B7BA-AA75DD9A4F16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGUI", "TestGUI\TestGUI.csproj", "{305E940F-C172-498E-8569-D0015F328A18}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathToolbox", "MathToolbox\MathToolbox.csproj", "{8129E591-67F0-4BC8-99B2-29F85C2C5872}"
 EndProject
 Global
@@ -37,10 +35,6 @@ Global
 		{4D8ED8EC-48FB-4570-B7BA-AA75DD9A4F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D8ED8EC-48FB-4570-B7BA-AA75DD9A4F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D8ED8EC-48FB-4570-B7BA-AA75DD9A4F16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{305E940F-C172-498E-8569-D0015F328A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{305E940F-C172-498E-8569-D0015F328A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{305E940F-C172-498E-8569-D0015F328A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{305E940F-C172-498E-8569-D0015F328A18}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8129E591-67F0-4BC8-99B2-29F85C2C5872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8129E591-67F0-4BC8-99B2-29F85C2C5872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8129E591-67F0-4BC8-99B2-29F85C2C5872}.Release|Any CPU.ActiveCfg = Release|Any CPU
