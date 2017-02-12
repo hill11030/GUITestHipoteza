@@ -44,7 +44,6 @@
     <Compile Include="ExponencialFunction.cs" />
     <Compile Include="GaussianGenerator.cs" />
     <Compile Include="IFunction.cs" />
-    <Compile Include="IRandomGenerator.cs" />
     <Compile Include="PolynomialFunction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
