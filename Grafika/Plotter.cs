@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace Grafika
 {
-    public class Class1
+    public class Plotter
     {
         private Graphics canvas;
         private Brush backgroundColor;
         private Rectangle area;
         private CoordinateSystem cSystem;
 
-        public Class1(Graphics canvas, Brush backgroundColor, Rectangle area, CoordinateSystem cSystem)
+        public Plotter(Graphics canvas, Brush backgroundColor, Rectangle area, CoordinateSystem cSystem)
         {
             this.canvas = canvas;
             this.backgroundColor = backgroundColor;

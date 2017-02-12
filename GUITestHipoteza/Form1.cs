@@ -23,7 +23,7 @@ namespace GUITestHipoteza
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
             //int podela = Convert.ToInt32(ConfigurationManager.AppSettings["Podela"].ToString());
-            //Class1 cs = new Class1(e.Graphics);
+            //Plotter cs = new Plotter(e.Graphics);
             //cs.DrawCoordinateSystem(System.Drawing.Pens.Red, new System.Drawing.Rectangle(10, 30, 500, 500), new CoordinateSystem(100, 100, podela, -100, 0, 20));
             if (isFirst)
             {
@@ -47,7 +47,7 @@ namespace GUITestHipoteza
             int height = (int)(this.Height * 0.7);
             int width = (int)(this.Width * 0.9);
 
-            Class1 cs = new Class1(graphics, Brushes.White, new System.Drawing.Rectangle(10, 30, width, height), new CoordinateSystem(100, 100, podela, -100, 0, 20));
+            Plotter cs = new Plotter(graphics, Brushes.White, new System.Drawing.Rectangle(10, 30, width, height), new CoordinateSystem(100, 100, podela, -100, 0, 20));
 
             cs.DrawCoordinateSystem(System.Drawing.Pens.Red);
 
