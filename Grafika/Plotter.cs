@@ -83,5 +83,31 @@ namespace Grafika
             }
         }
 
+        public void PlotFunction(TemplateFunction function)
+        {
+            double yValue;
+            List<PointF> points = new List<PointF>();
+            double segmentWidth = (cSystem.XMax - cSystem.XMin) / (cSystem.NumXPoints + 1);
+
+            for (double x = cSystem.XMin; x <= cSystem.XMax; x = x + segmentWidth)
+            {
+                yValue = function.GetValue(x);
+
+                if(yValue <= cSystem.YMax && cSystem.YMin <= yValue)
+                {
+                    points.Add(new PointF((float)x, (float)yValue));
+                }
+                else
+                {
+                    if(points.Count > 0)
+                    {
+                        canvas.DrawLines(Pens.Green, points.ToArray());
+                    }
+
+                    points.Clear();
+                }
+            }
+        }
+
     }
 }
