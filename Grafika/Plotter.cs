@@ -71,7 +71,7 @@ namespace Grafika
             }
         }
 
-        public void DrawFunction(IFunction function)
+        public void DrawFunction(TemplateFunction function)
         {
             double segmentWidth = (cSystem.XMax - cSystem.XMin) / (cSystem.NumXPoints + 1);
             for (double x = cSystem.XMin; x <= cSystem.XMax; x = x + segmentWidth)

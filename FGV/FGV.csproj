@@ -41,10 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TemplateFunction.cs" />
-    <Compile Include="ExponencialFunction.cs" />
     <Compile Include="GaussianGenerator.cs" />
-    <Compile Include="IFunction.cs" />
-    <Compile Include="PolynomialFunction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
